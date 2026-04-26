@@ -2,33 +2,45 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F4F8">
+    android:background="#0D1117">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp"
-        android:layout_marginTop="16dp">
+        android:padding="24dp">
 
         <TextView
-            android:text="🔧 JNI Demo"
+            android:text="🛡️ Anti-Debug JNI"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="26sp"
+            android:textSize="28sp"
             android:textStyle="bold"
-            android:textColor="#1A237E"
-            android:paddingBottom="20dp"/>
+            android:textColor="#58A6FF"
+            android:gravity="center"
+            android:paddingBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vérification..."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="18dp"
+            android:background="#161B22"
+            android:layout_marginBottom="20dp"/>
 
         <TextView
             android:id="@+id/tvHello"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hello JNI"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="#3949AB"
-            android:padding="14dp"
+            android:textSize="15sp"
+            android:textColor="#C9D1D9"
+            android:background="#161B22"
+            android:padding="16dp"
             android:layout_marginBottom="10dp"/>
 
         <TextView
@@ -36,32 +48,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Factoriel"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="#00897B"
-            android:padding="14dp"
-            android:layout_marginBottom="10dp"/>
-
-        <TextView
-            android:id="@+id/tvReverse"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Reverse String"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="#E53935"
-            android:padding="14dp"
-            android:layout_marginBottom="10dp"/>
-
-        <TextView
-            android:id="@+id/tvArray"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Somme tableau"
-            android:textSize="16sp"
-            android:textColor="#FFFFFF"
-            android:background="#FB8C00"
-            android:padding="14dp"/>
+            android:textSize="15sp"
+            android:textColor="#C9D1D9"
+            android:background="#161B22"
+            android:padding="16dp"/>
 
     </LinearLayout>
 </ScrollView>
